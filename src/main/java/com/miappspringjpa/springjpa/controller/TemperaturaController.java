@@ -15,7 +15,7 @@ public class TemperaturaController {
 
     @GetMapping("/convertiracelsius/{grados}")
     public Long devolverCelsius(@PathVariable Long grados){
-        return temperaturaServ.devolverCelsius(grados);
+        return temperaturaServ.devolverCelsius(grados)
     }
     
 }
