@@ -1,8 +1,8 @@
 package com.miappspringjpa.springjpa.service;
 
-import java.util.Date;
+import java.util.Calendar;
 
 public interface ICalcularEdadService {
     
-    public String calcularEdad(Date x);
+    public String calcularEdad(int dias, int mes, int año);
 }
